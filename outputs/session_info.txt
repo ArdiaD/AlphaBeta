@@ -1,0 +1,39 @@
+                                                                                           sysname 
+                                                                                          "Darwin" 
+                                                                                           release 
+                                                                                          "23.1.0" 
+                                                                                           version 
+"Darwin Kernel Version 23.1.0: Mon Oct  9 21:27:27 PDT 2023; root:xnu-10002.41.9~6/RELEASE_X86_64" 
+                                                                                          nodename 
+                                                                      "Davids-MacBook-Pro-2.local" 
+                                                                                           machine 
+                                                                                          "x86_64" 
+                                                                                             login 
+                                                                                            "root" 
+                                                                                              user 
+                                                                                          "dardia" 
+                                                                                    effective_user 
+                                                                                          "dardia" 
+R version 4.1.0 (2021-05-18)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS 14.1.2
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] compiler  stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] here_1.0.1               xtable_1.8-4             RcppArmadillo_0.12.6.6.1
+[4] Rcpp_1.0.11             
+
+loaded via a namespace (and not attached):
+ [1] mvtnorm_1.2-4       digest_0.6.33       rprojroot_2.0.4     pracma_2.4.4       
+ [5] evaluate_0.23       rlang_1.1.2         cli_3.6.2           rstudioapi_0.15.0  
+ [9] rmarkdown_2.25      moments_0.14.1      tools_4.1.0         RcppEigen_0.3.3.9.4
+[13] xfun_0.41           yaml_2.3.8          fastmap_1.1.1       htmltools_0.5.7    
+[17] knitr_1.45         
