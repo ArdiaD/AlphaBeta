@@ -86,7 +86,7 @@ The file `run_install_packages.R` will install all dependencies (latest version)
 ## Description of Programs/Code
 
 - The file `run_install_packages.R` will install all dependencies (latest version), and should be run once prior to running other programs. 
-- The file `run_results.R` will generate all tables and figures in the paper using the pseudo data sets. Be carefull as it will overwrite the content of the `output` folder.
+- The file `run_results.R` will generate all tables and figures in the paper using the pseudo data sets. Be carefull as it will overwrite the content of the `outputs` folder.
 
 ### License for Code
 
