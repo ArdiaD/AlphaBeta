@@ -1,11 +1,3 @@
----
-author: "David Ardia"
-output:
-  pdf_document: default
-  html_document:
-    df_print: paged
----
-
 #### 2024-01-04 
 
 ## Overview
@@ -48,7 +40,7 @@ We provide two pseudo data sets for running the code: `Db_Factors_Pseudo.rda` an
 
 | Data File | Description | 
 |--------|----------------|
-| `Db_Factors_Pseudo.rda` | Matrix `Factors` of size 324 x 28 that contains monthly returns from 1994-01 to 2020-12 of 18 fake factors |
+| `Db_Factors_Pseudo.rda` | Matrix `Factors` of size 324 x 28 that contains monthly returns from 1994-01 to 2020-12 of 28 fake pseudo factors |
 | | `FF_EMKT` market factor |
 | | `FF_HML` value factor |
 | | `FF_SMB` size factor |
@@ -69,19 +61,19 @@ We provide two pseudo data sets for running the code: `Db_Factors_Pseudo.rda` an
 | | `PS_LIQ` illiquidity factor |
 | | `KNS_dindrrevlv`, `KNS_dindmomrev`, `KNS_dindrrev`, `KNS_dseason`, and `KNS_dsue` machine learning portfolios factors |
 | | `KNS_pc_d5`, `KNS_pc_d1`, `KNS_pc_d6`, `KNS_pc_d12`, and `KNS_pc_d2` machine learning principal components factors |
-| `Db_HF_Pseudo.rda` | List `Db_HF` containing information for 2000 fake hedge funds |
-|  | `id` : Vector of size 2000 of fund id |
-|  | `dates` : Vector of size 324 of dates |
-|  | `ret` : Matrix of size 324 x 2000 of monthly returns [%] |
-|  | `aum` : Matrix of size 324 x 2000 of monthly aums [%] |
-|  | `strat` : Vector of size 2000 of fund main strategy |
-|  | `substrat` : Vector of size 2000 of fund sub strategy |
-|  | `mf` : Vector of size 2000 of fund managemenet fees [%] |
-|  | `pf` : Vector of size 2000 of fund performance fees [%] |
-|  | `hwm` : Vector of size 2000 of fund highwater mark [true/false] |
-|  | `hr` : Vector of size 2000 of fund hurdle rate [true/false] |
-|  | `np` : Vector of size 2000 of fund notice period [month] |
-|  | `lp` : Vector of size 2000 of fund lookup period [year] |
+| `Db_HF_Pseudo.rda` | List `Db_HF` containing information for 2000 fake pseudo hedge funds |
+|  | `id` vector of size 2000 of fund id |
+|  | `dates` vector of size 324 of dates |
+|  | `ret` matrix of size 324 x 2000 of monthly returns [%] |
+|  | `aum` matrix of size 324 x 2000 of monthly aums [%] |
+|  | `strat` vector of size 2000 of fund main strategy |
+|  | `substrat` vector of size 2000 of fund sub strategy |
+|  | `mf` vector of size 2000 of fund managemenet fees [%] |
+|  | `pf` vector of size 2000 of fund performance fees [%] |
+|  | `hwm` vector of size 2000 of fund highwater mark [true/false] |
+|  | `hr` vector of size 2000 of fund hurdle rate [true/false] |
+|  | `np` vector of size 2000 of fund notice period [month] |
+|  | `lp` vector of size 2000 of fund lookup period [year] |
 
 ## Computational requirements
 
