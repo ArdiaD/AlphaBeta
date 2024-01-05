@@ -4,19 +4,19 @@
 
 This README file provides information about the data and the computer code used to generate the results presented in Ardia et al. (202x), **Is it alpha or beta? Decomposing hedge fund returns when models are misspecified**, *Journal of Financial Economics*. 
 
-By using the code you agree to the following rules:
+By using the code, you agree to the following rules:
 
 - You must cite the paper in working papers and published papers that use the code.
 - You must place the DOI of this data/code repository in a footnote to help others find it.
 - You assume all risk for the use of the code.
 
-All datasets are proprietary. We do not have the rights to share any of the data. We provide pseudo data for illustration of the code usage.
+All datasets are proprietary. We do not have the rights to share any of the data. We provide pseudo data to illustrate the code usage.
 
 The computer code is written in R. We provide the code to reproduce the tables and figures in the paper.
 
 ## Data Availability and Provenance Statements
 
-All datasets are proprietary. Factor data are available from other researchers websites, while hedge fund data and mutual fund data come from commercial databases. See below for details.
+All datasets are proprietary. Factor data are available from other researchers' websites, while hedge fund data and mutual fund data come from commercial databases. See below for details.
 
 ### Data Sources for the Factors
 
@@ -34,9 +34,9 @@ Please refer to Section III.A in Barras et al. (2022) and Section V of its Suppl
 
 **No data can be made** publicly available. Data used in this paper and not provided as part of the public replication package will be preserved for one year after publication. 
 
-## Dataset list
+## Datasets
 
-We provide two pseudo data sets for running the code: `Db_Factors_Pseudo.rda` and `Db_HF_Pseudo.rda` both located in the folder `data`.
+We provide two pseudo datasets for running the code: `Db_Factors_Pseudo.rda` and `Db_HF_Pseudo.rda` located in the folder `data`.
 
 | Data File | Description | 
 |--------|----------------|
@@ -67,26 +67,26 @@ We provide two pseudo data sets for running the code: `Db_Factors_Pseudo.rda` an
 |  | `ret` matrix of size 324 x 2000 of monthly returns [%] |
 |  | `aum` matrix of size 324 x 2000 of monthly aums [%] |
 |  | `strat` vector of size 2000 of fund main strategy |
-|  | `substrat` vector of size 2000 of fund sub strategy |
-|  | `mf` vector of size 2000 of fund managemenet fees [%] |
+|  | `substrat` vector of size 2000 of fund sub-strategy |
+|  | `mf` vector of size 2000 of fund management fees [%] |
 |  | `pf` vector of size 2000 of fund performance fees [%] |
 |  | `hwm` vector of size 2000 of fund highwater mark [true/false] |
 |  | `hr` vector of size 2000 of fund hurdle rate [true/false] |
 |  | `np` vector of size 2000 of fund notice period [month] |
 |  | `lp` vector of size 2000 of fund lookup period [year] |
 
-## Computational requirements
+## Computational Requirements
 
-You must have R installed and a C++ compiler (such as gcc) to run Rcpp/RcppArmadillo.
+You must have R installed and a C++ compiler (such as GCC) to run Rcpp/RcppArmadillo.
 
 ### Software Requirements
 
-The file `run_install_packages.R` will install all dependencies (latest version), and should be run once prior to running other programs. See the file `session_info.txt` in the folder `outputs` to see what was the exact setup that generated the results in the paper.
+The file `run_install_packages.R` will install all dependencies (latest version) and should be run once before running other programs. See the file `session_info.txt` in the folder `outputs` to see the exact setup that generated the results in the paper.
 
 ## Description of Programs/Code
 
-- The file `run_install_packages.R` will install all dependencies (latest version), and should be run once prior to running other programs. 
-- The file `run_results.R` will generate all tables and figures in the paper using the pseudo data sets. Be carefull as it will overwrite the content of the `outputs` folder.
+- The file `run_install_packages.R` will install all dependencies (latest version) and should be run once before running other programs. 
+- The file `run_results.R` will generate all tables and figures in the paper using the pseudo data sets. Be careful, as it will overwrite the content of the `outputs` folder.
 
 ### License for Code
 
@@ -97,9 +97,9 @@ The code is under the GPL-3 license; see the file `LICENSE.txt`. Moreover, if yo
 - Run `run_install_packages.R` to install the missing packages. 
 - Run `run_results.R` to generate all tables (except Tables 8 and 9) and all figures in the papers. They will be saved in the folder `outputs`.
 
-## List of tables/figures and programs
+## List of Tables/Figures and Programs
 
-The provided code reproduces all tables and figures in the paper
+The provided code reproduces all tables and figures in the paper.
 
 | Figure/Table #    | Line Number | Output file   | Note          |
 |-------------------|-------------|---------------|---------------|
@@ -117,12 +117,12 @@ The provided code reproduces all tables and figures in the paper
 | Table 10        |   683       | `Table10.txt`  | Generate results for management fees. To generate each panel, uncomment other parts of the code | 
 | Figure 1        |   739       | `Figure1.pdf` | | 
 
-Table 3 does not require any code to be run. For Tables 8 and 9, these are category-specific cases of Table 5 and Table 7. Proceed as follows to generate them.
+Table 3 does not require any code to be run. Tables 8 and 9 are category-specific cases of Table 5 and Table 7. Please proceed as follows to generate them.
 
 | Table #    | Note        |
 |-------------------|-------------|
-| Table 8           |  Uncomment line 248 and run code for Table 5 above |       
-| Table 9           |  Uncomment line 248 and run code for Table 7 above | 
+| Table 8           |  Uncomment line 248 and run the code for Table 5 above |       
+| Table 9           |  Uncomment line 248 and run the code for Table 7 above | 
 
 ## References
 
@@ -148,4 +148,4 @@ Pastor, L., and R. F. Stambaugh. 2003. Liquidity risk and expected stock returns
 
 ## Acknowledgements
 
-Some content on this page was copied from [Hindawi](https://www.hindawi.com/research.data/#statement.templates). Other content was adapted  from [Fort (2016)](https://doi.org/10.1093/restud/rdw057), Supplementary data, with the author's permission.
+Some content on this page was copied from [Hindawi](https://www.hindawi.com/research.data/#statement.templates). Other content was adapted from [Fort (2016)](https://doi.org/10.1093/restud/rdw057), Supplementary data, with the author's permission.
