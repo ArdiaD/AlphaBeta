@@ -65,7 +65,7 @@ We provide two pseudo datasets for running the code: `Db_Factors_Pseudo.rda` and
 |  | `id` vector of size 2000 of fund id |
 |  | `dates` vector of size 324 of dates |
 |  | `ret` matrix of size 324 x 2000 of monthly returns [%] |
-|  | `aum` matrix of size 324 x 2000 of monthly aums [%] |
+|  | `aum` matrix of size 324 x 2000 of monthly aums [usd] |
 |  | `strat` vector of size 2000 of fund main strategy |
 |  | `substrat` vector of size 2000 of fund sub-strategy |
 |  | `mf` vector of size 2000 of fund management fees [%] |
