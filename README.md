@@ -2,12 +2,12 @@
 
 ## Overview
 
-This README file provides information about the data and the computer code used to generate the results presented in Ardia et al. (202x), **Is it alpha or beta? Decomposing hedge fund returns when models are misspecified**, *Journal of Financial Economics*. 
+This README file provides information about the data and the computer code used to generate the results presented in Ardia et al. (2024), **Is it alpha or beta? Decomposing hedge fund returns when models are misspecified**, *Journal of Financial Economics*, 154, 103805. [https://doi.org/10.1016/j.jfineco.2024.103805](https://doi.org/10.1016/j.jfineco.2024.103805)
 
 By using the code, you agree to the following rules:
 
 - You must cite the paper in working papers and published papers that use the code.
-- You must place the DOI of this data/code repository in a footnote to help others find it.
+- You must place the [DOI](https://doi.org/10.5281/zenodo.10459612) of this data/code repository in a footnote to help others find it.
 - You assume all risk for the use of the code.
 
 All datasets are proprietary. We do not have the rights to share any of the data. We provide pseudo data to illustrate the code usage.
@@ -126,7 +126,7 @@ Table 3 does not require any code to be run. Tables 8 and 9 are category-specifi
 
 ## References
 
-Ardia D., Barras L., Gagilardini P., and O. Scaillet. 202x. Is it alpha or beta? Decomposing hedge fund returns when models are misspecified. Journal of Financial Economics 
+Ardia D., Barras L., Gagilardini P., and O. Scaillet. 2024. Is it alpha or beta? Decomposing hedge fund returns when models are misspecified. Journal of Financial Economics 154:103805. https://doi.org/10.1016/j.jfineco.2024.103805
 
 Barras L., Gagilardini P., and O. Scaillet. 2022. Skill, scale, and value creation in the mutual fund industry. Journal of Finance 77:601-638. https://doi.org/10.1111/jofi.13096
 
